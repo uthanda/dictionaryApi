@@ -79,8 +79,8 @@
 		</dependency>
 	</dependencies>
 	<scm>
-		<connection>scm:git:https://github.com/uthanda/icnlibs.git</connection>
-		<url>https://github.com/uthanda/icnlibs.git</url>
+		<connection>scm:git:https://github.com/uthanda/dictionaryApi.git</connection>
+		<url>https://github.com/uthanda/dictionaryApi.git</url>
 		<tag>HEAD</tag>
 	</scm>
 	<distributionManagement>
