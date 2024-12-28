@@ -3,7 +3,7 @@
 	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>com.michaeloland</groupId>
-	<artifactId>dictionaryApi</artifactId>
+	<artifactId>dictionary-api</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<dependencies>
 		<dependency>
@@ -78,4 +78,16 @@
 			<version>[5.4,)</version>
 		</dependency>
 	</dependencies>
+	<scm>
+		<connection>scm:git:https://github.com/uthanda/icnlibs.git</connection>
+		<url>https://github.com/uthanda/icnlibs.git</url>
+		<tag>HEAD</tag>
+	</scm>
+	<distributionManagement>
+		<repository>
+			<id>github</id>
+			<name>Michael Oland</name>
+			<url>https://maven.pkg.github.com/uthanda/dictionaryApi</url>
+		</repository>
+	</distributionManagement>
 </project>
